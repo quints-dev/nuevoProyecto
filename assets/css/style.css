@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #e0e0e0;
+  background-color: #121212;
+}
+
+.navbar {
+  background-color: #121212;
+  overflow: hidden;
+}
+
+.navbarList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbarItem {
+  display: inline;
+}
+
+.navbarLink {
+  display: block;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* .navbar-link:hover {
+  background-color: #ddd;
+  color: black;
+} */
