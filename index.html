@@ -20,13 +20,40 @@
     <nav class="navbar">
       <ul class="navbarList">
         <li class="navbarItem">
-          <a href="name" class="navbarLink"></a>Paolo Quintiliani S.
+          <a href="#" class="navbarLink" class="navbar-link"></a>
+          <h1>Paolo Quintiliani S.</h1>
         </li>
         <li class="navbarItem">
-          <a href="role" class="navbarLink"></a>UX Designer || Developer Full
-          Stack Javascript
+          <a href="#" class="navbarLink" class="navbar-link"></a>UX Designer ||
+          Developer Full Stack Javascript
         </li>
       </ul>
     </nav>
+
+    <section class="hero">
+      <div class="heroContainer">
+        <p class="heroText">
+          <h3>Hola, Soy Paolo!!</h3>
+          <h3>Certificado por Coursera en Diseño UX/UI y por Inforcap en Desarrollo Full-Stack Javascript.
+            Soy un entuasiasta del desarrollo y diseño web, he realizado proyectos como prototipos de alta y baja fidelidad en Figma, ademas complementado con codigo mediante HTML, CSS y Javascript.
+          </h3>
+        </p>
+      </div>
+      </section>
+
+      <section class="carrusel">
+        <div class="carruselContainer">
+          <div class="carruselSlide">
+            <img src="./assets/img/jugandoFigma.png" alt="Imagen1">
+            <img src="./assets/img/newEshop.png" alt="Imagen2">
+            <img src="./assets/img/desafioSemanal2.png" alt="Imagen3">
+            <img src="./assets/img/harajukuSastre.png" alt="Imagen4">
+            <img src="./assets/img/altaFidelidadAurum1.png" alt="Imagen5">
+          </div>
+        </div>
+        <button class="carruselButton prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="carruselButton next" onclick="moveSlide(1)">&#10095;</button>
+      </section>
+      <script src="script.js"></script>
   </body>
 </html>
