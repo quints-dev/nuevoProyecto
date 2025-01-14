@@ -42,3 +42,60 @@ p {
   color: #e0e0e0;
   text-align: justify; /* Texto alineado para mejor lectura */
 }
+
+.footer {
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 4px 0px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-info,
+.footer-social {
+  flex: 1 1 45%;
+  margin: 10px;
+}
+
+.footer-info h4,
+.footer-social h4 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.footer-info p,
+.footer-social p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* Cambia el color al pasar el mouse (ejemplo: azul de Twitter) */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  font-size: 0.875rem;
+}
