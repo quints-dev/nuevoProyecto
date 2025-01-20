@@ -43,6 +43,11 @@ p {
   text-align: justify; /* Texto alineado para mejor lectura */
 }
 
+.tamanoQR {
+  width: 150px;
+  height: 200px;
+  display: flex;
+}
 .footer {
   background-color: #121212;
   color: #e0e0e0;
@@ -116,7 +121,7 @@ p {
   }
 }
 
-@media (max-width: 375px) and (max-height: 667px) {
+@media (max-width: 500px) and (max-height: 750px) {
   .rightCenter {
     display: none;
   }
